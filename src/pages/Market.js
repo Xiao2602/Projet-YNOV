@@ -100,6 +100,7 @@ const containerStyle = { maxWidth: '1000px', margin: '0 auto', padding: '20px' }
 
 const searchContainer = {
   display: 'flex',
+  border: '1px solid #000000',
   alignItems: 'center',
   background: 'white',
   padding: '12px 20px',
@@ -128,20 +129,20 @@ const cardStyle = {
   padding: '25px',
   borderRadius: '16px',
   boxShadow: '0 4px 15px rgba(0,0,0,0.08)',
-  border: '1px solid #f0f0f0'
+  border: '1px solid #000000'
 };
 
 const cardHeader = { display: 'flex', alignItems: 'center', gap: '10px', color: '#34495e' };
 
-const infoRow = { display: 'flex', justifyContent: 'space-between', borderTop: '1px solid #eee', paddingTop: '15px' };
+const infoRow = { display: 'flex', justifyContent: 'space-between', borderTop: '1px solid #000000', paddingTop: '15px' };
 
 const labelStyle = { display: 'block', fontSize: '14px', color: '#7f8c8d', marginBottom: '5px' };
 
 const quantityInput = {
-  width: '100%',
+  width: '94%',
   padding: '12px',
   borderRadius: '8px',
-  border: '1px solid #ddd',
+  border: '1px solid #000000',
   fontSize: '16px'
 };
 
